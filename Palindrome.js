@@ -4,7 +4,7 @@ let emptiedArray = newArray.slice(); //this array will be emptied, and original 
 let newArrayReversed = [];
 
 for(let i = newArray.length; i > 0; i--){
-	let extractedLetter = emptiedArray.pop([i]);
+	let extractedLetter = emptiedArray.pop();
 
   newArrayReversed.push(extractedLetter);
 }
